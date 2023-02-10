@@ -217,7 +217,6 @@ body h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20%;
   opacity: 0;
   -webkit-animation-name: fadeInAnime;
           animation-name: fadeInAnime;
@@ -227,6 +226,11 @@ body h2 {
           animation-fill-mode: forwards;
   width: 100%;
   height: 100%;
+}
+@media screen and (max-width : 480px) {
+  .container #area .top-image__catchcopy {
+    margin-top: 20%;
+  }
 }
 .container #area .top-image__catchcopy p {
   color: #333333;

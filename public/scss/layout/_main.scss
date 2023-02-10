@@ -164,11 +164,14 @@ body{
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    margin-top: 20%;
                     opacity: 0;
                     animation-name:fadeInAnime;
                     animation-duration:1s;
                     animation-fill-mode:forwards;
+
+                    @include g.mq(sp){
+                        margin-top: 20%;
+                    }
         
                     width:100%;
                     height:100%;
