@@ -1,0 +1,34 @@
+main {
+    margin-top: 500px;
+  }
+  .scroll-fade-up {
+    background-color: #3cb371;
+    height: 200px;
+    margin: 500px auto;
+    width: 80%;
+  }
+  .bg {
+    background: repeating-linear-gradient(
+        -45deg,
+        transparent,
+        transparent 1em,
+        rgba(248, 187, 208, 0.4) 0,
+        rgba(248, 187, 208, 0.1) 2em,
+        rgba(248, 187, 208, 0.3) 0,
+        rgba(248, 187, 208, 0.2) 4em,
+        rgba(244, 143, 177, 0.6) 0,
+        rgba(244, 143, 177, 0.2) 2em
+      ),
+      repeating-linear-gradient(
+        45deg,
+        transparent,
+        transparent 1em,
+        rgba(248, 187, 208, 0.4) 0,
+        rgba(248, 187, 208, 0.1) 2em,
+        rgba(248, 187, 208, 0.3) 0,
+        rgba(248, 187, 208, 0.2) 4em,
+        rgba(244, 143, 177, 0.4) 0,
+        rgba(244, 143, 177, 0.1) 2em
+      );
+    background-blend-mode: multiply;
+}
