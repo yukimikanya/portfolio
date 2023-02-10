@@ -1,2 +1,2 @@
 [build]
-  publish = "Demo_site_1/"
+  publish = "public/"
