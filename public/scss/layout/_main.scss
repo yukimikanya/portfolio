@@ -196,10 +196,10 @@ body{
                         font-size:150%;
 
                         @include g.mq(sp){
-                            font-size: 125%;                    
+                            font-size: 100%;
                         }
-
                     }
+
         
                     img{
                         width:25%;
