@@ -6,7 +6,7 @@ body{
     width:100%; 
     height:100%;
     margin: 0;
-    color: #333;
+    color: #111;
 
     h2{
         color:#111;
@@ -23,7 +23,7 @@ body{
                 flex-direction: column;
                 height:100vh;
                 width:100%;
-                background-image: url('.././Images/top_bg.jpg');
+                background-image: url('.././Images/top_bg.webp');
                 background-size: cover;
                 background-position: center;
 
@@ -130,8 +130,8 @@ body{
                     display: flex;
                     justify-content:center;
                     width:100%;
-                    height:30%;
                     margin-top: 10%;
+                    margin-bottom: 10%;
 
                     #typewriter::after {
                         content: "|";
@@ -551,6 +551,13 @@ body{
 
                     }
 
+                    .HtmlAndCss{
+                        img{
+                            width:20%;
+                            height:40%;
+                        }
+                    }
+
                     .word{
                         img{
                             width:30%;
@@ -562,6 +569,21 @@ body{
                         img{
                             width:20%;
                             height:20%;
+                        }
+                    }
+
+                    .js{
+                        img{
+                            width:20%;
+                            height:40%;
+                        }
+                    }
+
+
+                    .php{
+                        img{
+                            width:20%;
+                            height:40%;
                         }
                     }
 
@@ -725,7 +747,7 @@ body{
                             }
 
                             .img_01{
-                                background-image: url('./../images/portfolio_scs.png');
+                                background-image: url('./../images/portfolip_scs.webp');
                                 background-size: cover;
                                 background-position: center;
 
@@ -761,8 +783,9 @@ body{
 
     .header-menu{
         position: fixed;
+        z-index: 99;
         right:3%;
-        bottom: 10%;
+        bottom: 5%;
         width:100px;
         height:100px;
         display: flex;
@@ -776,7 +799,7 @@ body{
             left:22%;
             top: 100%;
             p{
-                color: #BBE5ED;
+                color: #1bd9ff;
                 font-weight: bold;
             }
         }
@@ -833,7 +856,7 @@ body{
                 position: relative;
                 width: 25px;
                 height: 8px;
-                background: #BBE5ED;
+                background: #1bd9ff;
             }
 
             &:before {
@@ -843,7 +866,7 @@ body{
                 left: 42px; /* 横棒のX位置 */
                 width: 8px; /* 横棒の長さ */
                 height: 25px; /* 横棒の幅 */
-                background: #BBE5ED; /* 横棒の色 */
+                background: #d777ec; /* 横棒の色 */
             }
 
             &:after {
@@ -853,7 +876,7 @@ body{
                 left: 42px; /* 横棒のX位置 */
                 width: 8px; /* 横棒の長さ */
                 height: 25px; /* 横棒の幅 */
-                background: #BBE5ED; /* 横棒の色 */
+                background: #d777ec; /* 横棒の色 */
             }
         }
 
@@ -884,7 +907,7 @@ body{
                         align-items: center;
                         justify-content: center;
                         width:100%;
-                        color: #333333;
+                        color: #1bd9ff;
                         text-decoration: none;
                         font-weight: bold;
 
@@ -928,7 +951,7 @@ body{
             
             100%{
                 opacity: 1;
-                transform: translateY(-240%);
+                transform: translateY(-200%);
             }
         }       
     }
@@ -942,7 +965,7 @@ body{
         top:0;
         left:0;
         z-index: -1;
-        background-image: url('./../images/swiper-bg.jpg');
+        background-image: url('./../images/swiper-bg.webp');
         background-size: cover;
         background-position: center;
     }

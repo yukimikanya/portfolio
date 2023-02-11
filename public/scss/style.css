@@ -1,5 +1,6 @@
 @charset "UTF-8";
 .area__footer {
+  position: relative;
   height: 20vh;
 }
 .area__footer .footer {
@@ -55,7 +56,7 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  color: #333;
+  color: #111;
 }
 body h2 {
   color: #111;
@@ -77,7 +78,7 @@ body h2 {
   flex-direction: column;
   height: 100vh;
   width: 100%;
-  background-image: url(".././Images/top_bg.jpg");
+  background-image: url(".././Images/top_bg.webp");
   background-size: cover;
   background-position: center;
 }
@@ -174,8 +175,8 @@ body h2 {
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 30%;
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 .container #area .top-image__box #typewriter::after {
   content: "|";
@@ -604,6 +605,10 @@ body h2 {
   background-color: #BBE5ED;
   border-right: 1px solid #E5ACF2;
 }
+.container #area__sub .sub-content .skill-banner .HtmlAndCss img {
+  width: 20%;
+  height: 40%;
+}
 .container #area__sub .sub-content .skill-banner .word img {
   width: 30%;
   height: 30%;
@@ -611,6 +616,14 @@ body h2 {
 .container #area__sub .sub-content .skill-banner .jquery img {
   width: 20%;
   height: 20%;
+}
+.container #area__sub .sub-content .skill-banner .js img {
+  width: 20%;
+  height: 40%;
+}
+.container #area__sub .sub-content .skill-banner .php img {
+  width: 20%;
+  height: 40%;
 }
 .container #area__sub .sub-content .skill-banner .skill-html:after {
   width: 80%;
@@ -776,7 +789,7 @@ body h2 {
   }
 }
 .container #area__work .main-box .swiper-wrapper .swiper-slide .imgANDphoto .img_01 {
-  background-image: url("./../images/portfolio_scs.png");
+  background-image: url("./../images/portfolip_scs.webp");
   background-size: cover;
   background-position: center;
 }
@@ -803,8 +816,9 @@ body h2 {
 
 .header-menu {
   position: fixed;
+  z-index: 99;
   right: 3%;
-  bottom: 10%;
+  bottom: 5%;
   width: 100px;
   height: 100px;
   display: flex;
@@ -819,7 +833,7 @@ body h2 {
   top: 100%;
 }
 .header-menu .header-guide p {
-  color: #BBE5ED;
+  color: #1bd9ff;
   font-weight: bold;
 }
 .header-menu #menu-btn-check {
@@ -876,7 +890,7 @@ body h2 {
   position: relative;
   width: 25px;
   height: 8px;
-  background: #BBE5ED;
+  background: #1bd9ff;
 }
 .header-menu .cross:before {
   content: "";
@@ -885,7 +899,7 @@ body h2 {
   left: 42px; /* 横棒のX位置 */
   width: 8px; /* 横棒の長さ */
   height: 25px; /* 横棒の幅 */
-  background: #BBE5ED; /* 横棒の色 */
+  background: #d777ec; /* 横棒の色 */
 }
 .header-menu .cross:after {
   content: "";
@@ -894,7 +908,7 @@ body h2 {
   left: 42px; /* 横棒のX位置 */
   width: 8px; /* 横棒の長さ */
   height: 25px; /* 横棒の幅 */
-  background: #BBE5ED; /* 横棒の色 */
+  background: #d777ec; /* 横棒の色 */
 }
 .header-menu .menu-content {
   position: fixed;
@@ -926,7 +940,7 @@ body h2 {
   align-items: center;
   justify-content: center;
   width: 100%;
-  color: #333333;
+  color: #1bd9ff;
   text-decoration: none;
   font-weight: bold;
 }
@@ -1005,7 +1019,7 @@ body h2 {
   }
   100% {
     opacity: 1;
-    transform: translateY(-240%);
+    transform: translateY(-200%);
   }
 }
 @keyframes move-menu {
@@ -1018,7 +1032,7 @@ body h2 {
   }
   100% {
     opacity: 1;
-    transform: translateY(-240%);
+    transform: translateY(-200%);
   }
 }
 
@@ -1029,7 +1043,7 @@ body h2 {
   top: 0;
   left: 0;
   z-index: -1;
-  background-image: url("./../images/swiper-bg.jpg");
+  background-image: url("./../images/swiper-bg.webp");
   background-size: cover;
   background-position: center;
 }
