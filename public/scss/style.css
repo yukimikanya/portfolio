@@ -253,9 +253,6 @@ body h2 {
 @media screen and (max-width : 480px) {
   .container #area .top-image__catchcopy .eng {
     font-size: 125%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 }
 .container #area .top-image__catchcopy img {
