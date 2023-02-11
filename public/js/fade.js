@@ -27,3 +27,5 @@ els_02.forEach(function(fadeIn) {
     }
   })
 })
+
+window.dispatchEvent(new Event('scroll'));
